@@ -1,0 +1,104 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ask-Cream</title>
+    <meta name="description" content="Ask-Cream" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Hadar Poliker, Yuval Sinvani, reut jhirad" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    x
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+                <img id="logo" src="images/לוגו.png"/> <!--הלוגו של המשחק שלכם-->
+                <p>Ask-Cream</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">X</a>
+            <p id="center">
+                <img id="logo1" src="images/לוגו.png" />
+                <br />
+                אפיון ופיתוח: רעות גירד, הדר פוליקר ויובל סינואני
+                <br />
+                <br />
+                אופיין ופותח במסגרת פרויקט בקורסים:
+                <br />
+                סביבות לימוד אינטראקטיביות 1 + תכנות אינטראקטיבי
+                <br />
+                <br />
+                תשפ"ג
+                <br />
+                <img src="Images/logoHIT.png" id="imgFaculty" />
+
+                <br />
+
+                <a href="https://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגיות למידה</a>
+
+            </p>
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">X</a>
+            <p>
+            <p id="bold">
+                אהלן איזה כיף שבחרתם לשחק
+                ask -cream!
+            </p>
+                
+                אצלנו מקבלים גלידה באמצעות מענה נכון על שאלות בתחומי ידע כללי.
+                <br />
+                <br />
+
+                הוראות: לחצו על התשובה הנכונה תוך 30 שניות על מנת שהלקוח שלכם יוכל לקבל כדור גלידה
+                <br/>
+                וכך תוכלו לסיים את גביעי הגלידה הנמצאים בצד.
+                <br/>
+                אם עניתם לא נכון על השאלה או שאזל הזמן, תקבלו את השאלה בשלב מאוחר יותר
+                <br />
+                כל תשובה נכונה מזכה אתכם בנקודות.
+                <br />
+                בכניסה למשחק תוכלו לבחור 100 עבור משחק בנושא "ספורט" או 101 עבור נושא "בעלי חיים".
+                <br />
+                <br />
+                אופן תפעול המשחק: עכבר מחשב.
+            <br/>
+            תהנו!
+
+
+
+                <!--כאן יכנסו התמונות/הסרטון המסביר כיצד לשחק-->
+            </p>
+        </div>
+
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם -->
+            <!--<iframe id="gameIframe" src="<https://simmer.io/@HadarPol/ask-cream" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>-->
+            <iframe  id="myfra" src="https://i.simmer.io/@HadarPol/ask-cream-fun" style="width:1281px;height:720px"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
